@@ -17,7 +17,7 @@ struct LoginView: View {
                 .frame(width: 360, height: 60)
                 .shadow(color: Color(#colorLiteral(red: 0, green: 0, blue: 0, alpha: 0.25)), radius:5, x:0, y:5)
             NavigationView {
-                NavigationLink(destination: ListUIView()) {
+                NavigationLink(destination: ListUIView(text: "")) {
                                 Text("Login").fontWeight(.semibold)
                                     .font(.title)
                                     .padding()
