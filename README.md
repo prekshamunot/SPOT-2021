@@ -74,3 +74,41 @@ We obtained a working software and able to run the app server on localhost. In o
 
 # Sprint Retrospective
 Improvements and feedbacks from the team: Increase communications between team members; Collect small questions during the development progress; Earlier distribution of weekly task. Meeting on Tue for 30min to discuss tasks and plans for the week. (9am-9:30am)
+
+
+
+# Sprint Planning 4: (G6 Density by Floor& Backend enhancement)
+Backend:
+1. Meeting with Dharmesh & Rohit (aws rds and local server and general structure).
+2. DB design and API calls design (google doc in folder)
+
+Frontend:
+1. Design update and usability tests (UXD).
+2. Fully implemented listview.
+3. Partially implemented favorites (able to click).
+
+Rationale: We plan to mainly focus on starting G6, density by floor since we adjusted the priority according to the validation tests last week. We plan to create 2 api calls that retreive density by floor. Our frontend plan has been adjusted according to the amount of work on backend so we plan to bring some of the G3 into frontend work.
+
+
+# Daily Scrum (03/20)
+John Chai: Created and designed the new database on google doc. Implemented two more api calls for G6; after the meeting with Rohit decide to validate the aws account with instructors and start implement api calls base on the design.
+
+Preksha Munot: Implemented css on the listview and added favorites options for each building; will start building the navigation bar and the favorites page for user preference.
+
+Evan Hsu: Created and designed the new database on google doc; will work with John to set up aws lambda functions earlier next week.
+
+Tilak Agarwal: Implemented css on the listview ; Fixed bugs for login page and connections to other pages. will start building the navigation bar and the favorites page for user preference.
+
+Katie So: Updated the current figma design and the design brief; keep updating the design and communication with development teams.
+
+Scrum Evaluation:
+For this week's scrum, we planned the tasks as a team and did breakout room for frontend and backend. We accomplished the tasks we set for the day and made progress on both teams. The impediments we discovered is that the connection between frontend and backend needs to be established so starting from next week we also need to shift some focus onto the integration between frontend and backend.
+
+Mob-Programming: the evidence can be found in the drive Week 8 folder during the daily scrum.
+Test-Driven Development: Frontend developers able to see features displayed in the page (list of objects, fav heart feature, jpg of building, building name, building info); Backend developers able to create new api requests and retireve density by floor for certain building (2 api callbacks and 3 enhancement on cron tasks)
+
+# Sprint Review 4
+We are able to fully implement css for listview page and added favorites click. We met with two of our backend mentor and obtained info on constructing db on AWS RDS and also designed all api endpoints for the app. In general the developement process is moving smoothly; we intend to make great progress on backend next week and focus on integration.
+
+# Sprint Retrospective
+All teammates participated in the sprint review and discussed plans as a team. Improvements and feedbacks from the team: Development progress runing smoothly this week. Future planning at the stage is the integration of frontend and backend. We will try to establish a connection between the two.
