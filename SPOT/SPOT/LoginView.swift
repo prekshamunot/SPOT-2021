@@ -9,15 +9,15 @@ import SwiftUI
 
 struct LoginView: View {
     var body: some View {
-        VStack{
-            TextField("Email", text: .constant(""))
-                .frame(width: 360, height: 60)
-                .shadow(color: Color(#colorLiteral(red: 0, green: 0, blue: 0, alpha: 0.25)), radius:5, x:0, y:5)
-            TextField("Password", text: .constant(""))
-                .frame(width: 360, height: 60)
-                .shadow(color: Color(#colorLiteral(red: 0, green: 0, blue: 0, alpha: 0.25)), radius:5, x:0, y:5)
             NavigationView {
-                NavigationLink(destination: ListUIView(text: "")) {
+                VStack{
+                    TextField("Email", text: .constant(""))
+                        .frame(width: 360, height: 60)
+                        .shadow(color: Color(#colorLiteral(red: 0, green: 0, blue: 0, alpha: 0.25)), radius:5, x:0, y:5)
+                    TextField("Password", text: .constant(""))
+                        .frame(width: 360, height: 60)
+                        .shadow(color: Color(#colorLiteral(red: 0, green: 0, blue: 0, alpha: 0.25)), radius:5, x:0, y:5)
+                NavigationLink(destination: ContentView()) {
                                 Text("Login").fontWeight(.semibold)
                                     .font(.title)
                                     .padding()
@@ -25,8 +25,7 @@ struct LoginView: View {
                                     .background(Color.red)
                                     .cornerRadius(5)
                 }.frame(width: 150, height: 60)
-                
-            }.frame(width: 200, height: 200, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+            }
         }
     }
 }
