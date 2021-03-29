@@ -112,3 +112,49 @@ We are able to fully implement css for listview page and added favorites click. 
 
 # Sprint Retrospective
 All teammates participated in the sprint review and discussed plans as a team. Improvements and feedbacks from the team: Development progress runing smoothly this week. Future planning at the stage is the integration of frontend and backend. We will try to establish a connection between the two.
+
+
+
+
+
+# Sprint Planning 5: (G3 A — Nav Bar, Fav Page, Backend)
+Backend:
+1. Meeting with Dharmesh and Rohit (set up account on AWS and created table to store info, discuss integration).
+2. Research on integration
+
+Frontend:
+1. Design update and usability tests (UXD).
+2. Implement Nav bar
+3. Partially implemented favorites/setting page.
+
+Rationale: We plan to mainly focus on starting G3 A, add favorite functionality. According to the time limit we have for future dev process, we decide to expand our scope future in this week’s sprint. For backend, since we still waiting for the server to set up, we decide to create the db on AWS and then later just paste the table to that db. Our frontend plan is to implement some essential parts Navbar, Fav page and settings page. The initial set up and functionality should work by the end of this week.
+
+
+# Daily Scrum (03/25)
+John Chai: Created an account on AWS to manage db, connect rds with the local sql workbench, created tables for testing and real data on mysql workbench according to last week’s design. Will focus on data flow (retrieve from another db).
+
+Preksha Munot: Implemented fav page for user preference and json issue on the frontend; will start working on the css and bug fixes for the specific page.
+
+Evan Hsu: Researched on integration between Swift and Node.js, found resources to implement for integration; tested on the new local server set up; will work with Dharmesh to figure out some issues with the newly constructed server.
+
+Tilak Agarwal: Implemented setting page and nav bar, raised a question about setting’s page that will be discussed in the next week’s planning meeting; will start working on the css and bug fixes for the specific page.
+
+Katie So: Updated the current figma design and the design brief; keep updating the design and communication with development teams.
+
+
+
+Scrum Evaluation:
+For this week's scrum, as usual we distributed the tasks according to the team and work together in the zoom call. We accomplished most tasks we set for the day and made progress on both teams. The impediments we discovered this week is the lack of guidance from mentors can sometimes cause some delay on the initial work set. We need to spend lots of time researching and the server side is more complicated than we thought to implement. An impediment is to schedule a meeting time earlier in the week and reach out to more mentors for help. It is been a busy week for midterms so it is understandable.
+
+Mob-Programming: the evidence can be found in the drive Week 9 folder during the daily scrum.
+
+Test-Driven Development: Frontend developers able to create functional components (nav bar (3 items), setting’s page, fav page — initialization); Backend developers able to test server connections and table creations (able to connect to newly constructed local server, able to create tables for testing and product (total of 4 tables created) in schema, able to conducted research on integration and found useful resources, able to create an AWS account for project with correct settings); evidences are shown as screenshots to indicate progress.
+
+# Sprint Review 5
+Front end team did an awesome job on expanding the scope by creating almost most of the pages and set ups we need for the app. Backend team encountered some difficulties on setting up our own db but able to get the initial server set up and also did research on the integration part. In general the development process is moving smoothly; we intend to complete the data flow next week and start discussing integration with our mentors.
+
+
+# Sprint Retrospective
+All teammates participated in the sprint review and discussed plans as a team in the weekly sprint planning and review meeting.
+Improvements and feedbacks from the team: Development progress running smoothly this week. A potential question on the functionality of settings page is brought up by one developer and we will discuss it in the next week’s sprint planning meeting. Also the icons for list view will be updated next week. Only select a few buildings on campus that are popular to implement functionality on.
+
