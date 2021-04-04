@@ -1,0 +1,22 @@
+[
+    {
+        "id": "MUG",
+        "name": "Mugar Library",
+        "address": "123 Commonwealth Ave."
+    },
+    {
+        "id": "YAW",
+        "name": "Yawkey Center",
+        "address": "1 Bay State Rd."
+    },
+    {
+        "id": "STUVI",
+        "name": "Student Village",
+        "address": "33 Harry Agganis Way"
+    },
+    {
+        "id": "QST",
+        "name": "Questrom",
+        "address": "595 Commonwealth Ave."
+    }
+]
