@@ -1,0 +1,38 @@
+[
+    {
+        "building_desc": "123 Commonwealth Ave",
+        "building_name": "Mugar Library",
+        "density_cnt": "400",
+        "capacity": "534",
+        "dc_ratio": "0.74",
+        "percent": "74",
+        "remaning_ratio": "0.26"
+    },
+    {
+        "building_desc": "1 Bay State Rd",
+        "building_name": "Yawkey Center",
+        "density_cnt": "150",
+        "capacity": "300",
+        "dc_ratio": "0.5",
+        "percent": "50",
+        "remaning_ratio": "0.5"
+    },
+    {
+        "building_desc": "33 Harry Agganis Way",
+        "building_name": "Student Village",
+        "density_cnt": "145",
+        "capacity": "150",
+        "dc_ratio": "0.95",
+        "percent": "95",
+        "remaning_ratio": "0.05"
+    },
+    {
+        "building_desc": "595 Commonwealth Ave",
+        "building_name": "Questrom",
+        "density_cnt": "450",
+        "capacity": "520",
+        "dc_ratio": "0.86",
+        "percent": "86",
+        "remaning_ratio": "0.14"
+    }
+]
