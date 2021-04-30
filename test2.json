@@ -1,9 +1,9 @@
 [
     {
         "id": "1",
-        "building_desc": "123 Commonwealth Ave",
+        "building_desc": "771 Commonwealth Ave",
         "building_name": "Mugar Library",
-        "density_cnt": 400,
+        "density_cnt": 395,
         "capacity": 534,
         "dc_ratio": 0.74,
         "percent": 74,
@@ -11,29 +11,29 @@
     },
     {
         "id": "2",
-        "building_desc": "1 Bay State Rd",
+        "building_desc": "100 Bay State Rd",
         "building_name": "Yawkey Center",
-        "density_cnt": 150,
+        "density_cnt": 195,
         "capacity": 300,
-        "dc_ratio": 0.5,
-        "percent": 50,
-        "remaning_ratio": 0.5
+        "dc_ratio": 0.65,
+        "percent": 65,
+        "remaning_ratio": 0.35
     },
     {
         "id": "3",
         "building_desc": "33 Harry Agganis Way",
         "building_name": "Student Village",
-        "density_cnt": 145,
+        "density_cnt": 45,
         "capacity": 150,
-        "dc_ratio": 0.95,
-        "percent": 95,
-        "remaning_ratio": 0.05
+        "dc_ratio": 0.3,
+        "percent": 30,
+        "remaning_ratio": 0.7
     },
     {
         "id": "4",
         "building_desc": "595 Commonwealth Ave",
-        "building_name": "Questrom",
-        "density_cnt": 450,
+        "building_name": "Questrom School of Business",
+        "density_cnt": 447,
         "capacity": 520,
         "dc_ratio": 0.86,
         "percent": 86,
