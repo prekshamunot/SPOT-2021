@@ -1,1 +1,44 @@
-[{"building_code":619,"building_desc":"771 Commonwealth Avenue","building_name":"Mugar Memorial Library","density_cnt":73,"capacity":318,"remaining_capacity":245,"dc_ratio":0.23,"percent":23,"remaining_dc_ratio":0.77},{"building_code":621,"building_desc":"775 Commonwealth Avenue","building_name":"George Sherman Union","density_cnt":121,"capacity":1179,"remaining_capacity":1058,"dc_ratio":0.1,"percent":10,"remaining_dc_ratio":0.9},{"building_code":599,"building_desc":"675 - 725 Commonwealth Avenue","building_name":"College of Arts and Sciences","density_cnt":52,"capacity":0,"remaining_capacity":-52,"dc_ratio":0,"percent":0,"remaining_dc_ratio":1},{"building_code":596,"building_desc":"640 Commonwealth Avenue","building_name":"College Of Communication","density_cnt":45,"capacity":471,"remaining_capacity":426,"dc_ratio":0.1,"percent":10,"remaining_dc_ratio":0.9},{"building_code":629,"building_desc":"871 Commonwealth Avenue","building_name":"College Of General Studies","density_cnt":32,"capacity":723,"remaining_capacity":691,"dc_ratio":0.04,"percent":4,"remaining_dc_ratio":0.96},{"building_code":626,"building_desc":"855 Commonwealth Avenue","building_name":"College Of Fine Arts","density_cnt":77,"capacity":751,"remaining_capacity":674,"dc_ratio":0.1,"percent":10,"remaining_dc_ratio":0.9},{"building_code":714,"building_desc":"100 Bay State Road","building_name":"Yawkey Center For Student Services","density_cnt":51,"capacity":554,"remaining_capacity":503,"dc_ratio":0.09,"percent":9,"remaining_dc_ratio":0.91},{"building_code":501,"building_desc":"915 Commonwealth Avenue","building_name":"Fitness And Recreation Center","density_cnt":41,"capacity":534,"remaining_capacity":493,"dc_ratio":0.08,"percent":8,"remaining_dc_ratio":0.92},{"building_code":761,"building_desc":"8 St. Mary's Street","building_name":"Photonics Research Center","density_cnt":72,"capacity":1228,"remaining_capacity":1156,"dc_ratio":0.06,"percent":6,"remaining_dc_ratio":0.94},{"building_code":962,"building_desc":"750 Commonwealth Avenue","building_name":"Engineering Product Innovation Center","density_cnt":20,"capacity":308,"remaining_capacity":288,"dc_ratio":0.06,"percent":6,"remaining_dc_ratio":0.94}]
+[
+  {
+    "building_code":619,
+    "building_desc":"771 Commonwealth Avenue",
+    "building_name":"Mugar Memorial Library",
+    "density_cnt":73,
+    "capacity":318,
+    "remaining_capacity":245,
+    "dc_ratio":0.23,
+    "percent":23,
+    "remaining_dc_ratio":0.77
+  },
+  {
+    "building_code":621,
+    "building_desc":"775 Commonwealth Avenue",
+    "building_name":"George Sherman Union",
+    "density_cnt":121,
+    "capacity":1179,
+    "remaining_capacity":1058,
+    "dc_ratio":0.1,
+    "percent":10,
+    "remaining_dc_ratio":0.9
+  },
+  {
+    "building_code":599,
+    "building_desc":"675 - 725 Commonwealth Avenue",
+    "building_name":"College of Arts and Sciences",
+    "density_cnt":52,
+    "capacity":0,
+    "remaining_capacity": 52,
+    "dc_ratio":0,
+    "percent":0,
+    "remaining_dc_ratio":1
+  },
+  {"building_code":596,
+   "building_desc":"640 Commonwealth Avenue",
+   "building_name":"College Of Communication",
+   "density_cnt":45,
+   "capacity":471,
+   "remaining_capacity":426,
+   "dc_ratio":0.1,
+   "percent":10,
+   "remaining_dc_ratio":0.9
+  }
