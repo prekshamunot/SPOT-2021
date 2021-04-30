@@ -8,26 +8,42 @@
 import SwiftUI
 
 struct LoginView: View {
+    var navigationBarBackButtonHidden = true
     var body: some View {
-        VStack{
-            TextField("Email", text: .constant(""))
-                .frame(width: 360, height: 60)
-                .shadow(color: Color(#colorLiteral(red: 0, green: 0, blue: 0, alpha: 0.25)), radius:5, x:0, y:5)
-            TextField("Password", text: .constant(""))
-                .frame(width: 360, height: 60)
-                .shadow(color: Color(#colorLiteral(red: 0, green: 0, blue: 0, alpha: 0.25)), radius:5, x:0, y:5)
             NavigationView {
-                NavigationLink(destination: ListUIView(text: "")) {
-                                Text("Login").fontWeight(.semibold)
-                                    .font(.title)
+                VStack{
+                    Spacer()
+                    ZStack(){
+                        RoundedRectangle(cornerRadius: 10)
+                            .fill(Color(#colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)))
+                            .frame(width: 371, height: 62)
+                            .shadow(color: Color(#colorLiteral(red: 0, green: 0, blue: 0, alpha: 0.15000000596046448)), radius:5, x:0, y:5)
+                        TextField("Email", text: .constant(""))
+                            .frame(width: 360, height: 60)
+                            .shadow(color: Color(#colorLiteral(red: 0, green: 0, blue: 0, alpha: 0.25)), radius:5, x:0, y:5)
+                    }.padding(.bottom, 50)
+                    ZStack{
+                        RoundedRectangle(cornerRadius: 10)
+                            .fill(Color(#colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)))
+                            .frame(width: 371, height: 62)
+                            .shadow(color: Color(#colorLiteral(red: 0, green: 0, blue: 0, alpha: 0.15000000596046448)), radius:5, x:0, y:5)
+                        TextField("Password", text: .constant(""))
+                            .frame(width: 360, height: 60)
+                            .shadow(color: Color(#colorLiteral(red: 0, green: 0, blue: 0, alpha: 0.25)), radius:5, x:0, y:5)
+                    }.padding(.bottom, 50)
+                    
+                    Spacer()
+                    NavigationLink(destination: ContentView()) {
+                                Text("Login")
+                                    .font(.custom("Cabin-Bold", size: 24))
                                     .padding()
                                     .foregroundColor(.white)
-                                    .background(Color.red)
-                                    .cornerRadius(5)
-                }.frame(width: 150, height: 60)
-                
-            }.frame(width: 200, height: 200, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-        }
+                                    .background(Color(#colorLiteral(red: 0.800000011920929, green: 0, blue: 0, alpha: 1)))
+                                    .cornerRadius(15)
+                    }.frame(width: 250, height: 60).navigationBarBackButtonHidden(true)
+                    Spacer()
+            }
+        }.navigationBarBackButtonHidden(true)
     }
 }
 
