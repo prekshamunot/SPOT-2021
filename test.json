@@ -2,21 +2,29 @@
     {
         "id": "MUG",
         "name": "Mugar Library",
-        "address": "123 Commonwealth Ave."
+        "address": "123 Commonwealth Ave.",
+        "percent": 74,
+        "remaning_ratio": 0.26
     },
     {
         "id": "YAW",
         "name": "Yawkey Center",
-        "address": "1 Bay State Rd."
+        "address": "1 Bay State Rd.",
+        "percent": 50,
+        "remaning_ratio": 0.5
     },
     {
         "id": "STUVI",
         "name": "Student Village",
-        "address": "33 Harry Agganis Way"
+        "address": "33 Harry Agganis Way",
+        "percent": 95,
+        "remaning_ratio": 0.05,
     },
     {
         "id": "QST",
         "name": "Questrom",
-        "address": "595 Commonwealth Ave."
+        "address": "595 Commonwealth Ave.",
+        "percent": 86,
+        "remaning_ratio": 0.14
     }
 ]
