@@ -1,6 +1,6 @@
 [
   {
-    "building_code":619,
+    "building_code": "619",
     "building_desc":"771 Commonwealth Avenue",
     "building_name":"Mugar Memorial Library",
     "density_cnt":73,
@@ -11,7 +11,7 @@
     "remaining_dc_ratio":0.77
   },
   {
-    "building_code":621,
+    "building_code": "621",
     "building_desc":"775 Commonwealth Avenue",
     "building_name":"George Sherman Union",
     "density_cnt":121,
@@ -22,7 +22,7 @@
     "remaining_dc_ratio":0.9
   },
   {
-    "building_code":599,
+    "building_code": "599",
     "building_desc":"675 - 725 Commonwealth Avenue",
     "building_name":"College of Arts and Sciences",
     "density_cnt":52,
@@ -32,7 +32,7 @@
     "percent":0,
     "remaining_dc_ratio":1
   },
-  {"building_code":596,
+  {"building_code": "596",
    "building_desc":"640 Commonwealth Avenue",
    "building_name":"College Of Communication",
    "density_cnt":45,
